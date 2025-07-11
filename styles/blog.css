@@ -3,11 +3,14 @@
   font-optical-sizing: auto;
   font-style: normal;
 }
+.bg{background-color:#9f9ec221;}
  /* navbar section */
 nav { display: flex; gap: 1000px; margin-left: 150px;}
 nav li {list-style:none;}
 .logo-primary{font-weight:900; font-size: 34px;color: rgba(78, 71, 255, 1);}
-.btn-primary{background-color:#4E47FF; color: #FFFFFF; padding: 12px 35px; border-radius:10px;margin-top: 10px; border-color: #4E47FF; cursor: pointer; text-decoration: none;}
+.btn-primary{background-color:#4E47FF; color: #FFFFFF; padding: 12px 35px; border-radius:10px;margin-top: 10px; border: #4E47FF; cursor: pointer; text-decoration: none;}
+.btn-primary:hover {background-color: red;}
+.btn-secondary:hover {background-color: red;}
 
 /* banner section */
 .hero-bg {background-image: url(../images/Hero-bg.png);}
@@ -21,8 +24,31 @@ nav li {list-style:none;}
 .action-section{display: flex; gap:220px; margin: 116px 160px;}
 
 /* users section */
- .users-container{background-color: rgba(77, 71, 255, 0.146); border-radius: 24px; margin: 30px 168px 180px 168px; padding: 5px 250px;justify-items: center;}
-.user-section{font-size:36px ; font-weight: bold;}
+ .users-container{background-color: rgba(77, 71, 255, 0.146); border-radius: 24px; margin: 30px 168px 130px 168px; padding: 5px 250px;justify-items: center;}
+.user-heading{font-size:36px ; font-weight: bold;}
 .user-container{display: flex; gap: 180px; padding-bottom: 30px;}
 .user-title{font-size: 80px; font-weight: bold; color: rgba(78, 71, 255, 1); margin-top: 0px; margin-bottom:-15px;}
 .user-subtitle{font-size: 20px; color: rgba(0, 0, 0, 0.5);}
+
+/* feedback section */
+.feedback-section{margin: 50px 150px 50px 150px;justify-items: center;}
+.feedback-heading{font-size: 42px;font-weight: bold;}
+.feedback-title{font-size: 25px;}
+.feedback-container{display: flex; gap: 20px;}
+.feedback-details{border: solid #F2EDED;background-color:white ; border-radius: 14px; padding: 30px; padding-bottom: 10px;}
+.raters-info{display: flex; gap: 18px;}
+.raters-info img {width: 40px;height: 40px; margin-top: 17px;border-radius: 999px;}
+.name{margin-bottom: -15px; color: #757575;}
+.date{color: #B3B3B3;}
+ 
+/* touch section */
+.touch-container{display: flex; gap: 115px;margin: 95px 150px 15px 150px; }
+.section-title{font-size: 97px;font-weight: bold;}
+.placeholder{padding: 20px 270px 20px 30px; border-radius: 10px ; border:#D6DDED; font-size: 16px;}
+.message{padding: 20px 230px 85px 32px;border-radius: 10px;border: #D6DDED;font-size: 16px;}
+.btn-secondary{padding: 19px 198px;background-color:#4E47FF; color: #FFFFFF; border-radius:10px;margin-top: 10px; border: #4E47FF; cursor: pointer; text-decoration: none;}
+/* footer section */
+.footer-title{font-size: 100px; font-weight: 900; color: #4E47FF;}
+.footer-section{text-align: center;}
+.footer-sub-title{color: #8987A1;}
+.link a{text-decoration: none; color: #8987A1;}
