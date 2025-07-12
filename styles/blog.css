@@ -2,13 +2,13 @@
   font-family: "Raleway", sans-serif;
   font-optical-sizing: auto;
   font-style: normal;}
-.bg{background-color:#9f9ec221;}
+
 
  /* navbar section */
 nav { display: flex; gap: 1000px; margin-left: 150px;}
 nav li {list-style:none;}
 .logo-primary{font-weight:900; font-size: 34px;color: rgba(78, 71, 255, 1); font-family:sans-serif;}
-.btn-primary{background-color:#4E47FF; color: #FFFFFF; padding: 12px 35px; border-radius:10px;margin-top: 10px; border: #4E47FF; cursor: pointer; text-decoration: none;}
+.btn-primary{background-color:#4E47FF; color: #FFFFFF; padding: 12px 35px;font-weight: bold; border-radius:10px;margin-top:15px; border: #4E47FF; cursor: pointer; text-decoration: none;}
 .btn-primary:hover {background-color: red;box-shadow: 5px 5px 5px black;}
 .btn-secondary:hover {background-color: red;box-shadow: 5px 5px 5px black;}
 
@@ -21,7 +21,8 @@ nav li {list-style:none;}
 .action-title{font-weight: bold;font-size: 42px; color: rgba(37, 36, 50, 1);}
 .action-sub-title{font-size: 24px; color:#25243276;}
 .action-section img{border-radius: 45px; width:403px; height: 328px;}
-.action-section{display: flex; gap:220px; margin: 116px 160px;}
+.action-section{display: flex; gap:220px;padding: 116px 160px;}
+.bg{background-color:#9f9ec221;}
 
 /* users section */
  .users-container{background-color: rgba(77, 71, 255, 0.146); border-radius: 24px; margin: 30px 168px 130px 168px; padding: 5px 250px;justify-items: center;}
@@ -42,13 +43,14 @@ nav li {list-style:none;}
 .date{color: #B3B3B3;}
  
 /* touch section */
-.touch-container{display: flex; gap: 245px;margin: 95px 0px 15px 155px; padding-bottom: 70px; }
+.touch-container{display: flex; gap: 200px;margin: 95px 0px 15px 155px; padding-bottom: 70px; }
 .section-title{font-size: 97px;font-weight: bold;}
-.placeholder{padding: 20px 270px 20px 30px; border-radius: 10px ; border:#D6DDED; font-size: 16px;}
-.message{padding: 20px 230px 85px 32px;border-radius: 10px;border: #D6DDED;font-size: 16px;}
-.btn-secondary{padding: 19px 198px;background-color:#4E47FF; color: #FFFFFF; border-radius:10px;margin-top: 10px; border: #4E47FF; cursor: pointer; text-decoration: none;}
+.placeholder{padding: 20px 270px 20px 30px; border-radius: 10px ; border:#D6DDED; font-size: 20px;font-family:sans-serif;}
+.form-title{font-family:sans-serif;font-size: 18px;font-weight:500;}
+.message{padding: 20px 230px 85px 32px;border-radius: 10px;border: #D6DDED;font-size: 19px;}
+.btn-secondary{padding: 19px 215px;background-color:#4E47FF; color: #FFFFFF; font-weight: bold; border-radius:10px;margin-top: 10px; border: #4E47FF; cursor: pointer; text-decoration: none;}
 /* footer section */
-.footer-title{font-size: 100px; font-weight: 900; color: #4E47FF; margin-bottom: 0px;}
+.footer-title{font-size: 100px; font-weight: 900; color: #4E47FF; margin-bottom: 0px;font-family:sans-serif;}
 .footer-section{text-align: center; padding: 0px 450px 80px 450px;}
 .footer-sub-title{color: #8987A1;}
 .link a{text-decoration: none; color: #8987A1; margin-right:40px;}
