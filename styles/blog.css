@@ -3,7 +3,6 @@
   font-optical-sizing: auto;
   font-style: normal;}
 
-
  /* navbar section */
 nav { display: flex; gap: 1000px; margin-left: 150px;}
 nav li {list-style:none;}
@@ -50,6 +49,7 @@ nav li {list-style:none;}
 .form-title{font-family:sans-serif;font-size: 18px;font-weight:500;}
 .message{padding: 20px 230px 85px 32px;border-radius: 10px;border: #D6DDED;font-size: 19px;}
 .btn-secondary{padding: 19px 215px;background-color:#4E47FF; color: #FFFFFF; font-weight: bold; border-radius:10px;margin-top: 10px; border: #4E47FF; cursor: pointer; text-decoration: none;}
+
 /* footer section */
 .footer-title{font-size: 100px; font-weight: 900; color: #4E47FF; margin-bottom: 0px;font-family:sans-serif;}
 .footer-section{text-align: center; padding: 0px 450px 80px 450px;}
