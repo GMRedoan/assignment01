@@ -25,16 +25,17 @@ nav li {list-style:none;}
 .bg{background-color:#9f9ec221;}
 
 /* users section */
- .users-container{background-color: rgba(77, 71, 255, 0.146); border-radius: 24px; margin: 30px 168px 130px 168px; padding: 5px 250px;justify-items: center;}
+ .users-container{background-color: rgba(77, 71, 255, 0.146); border-radius: 24px; margin: 30px 168px 50px 168px; padding-top: 5px;justify-items: center;}
 .user-heading{font-size:36px ; font-weight: bold;}
 .user-container{display: flex; gap: 180px; padding-bottom: 30px;}
 .user-title{font-size: 80px; font-weight: bold; color: rgba(78, 71, 255, 1); margin-top: 0px; margin-bottom:-15px; font-family:sans-serif;}
 .user-subtitle{font-size: 20px; color: rgba(0, 0, 0, 0.5);font-family:sans-serif;}
 
 /* feedback section */
-.feedback-section{margin: 50px 150px 50px 150px;justify-items: center;}
+.feedback-section{ padding: 50px 150px 50px 150px;justify-items: center;}
 .feedback-heading{font-size: 42px;font-weight: bold;}
 .feedback-title{font-size: 25px;}
+.feedback-sub-title{margin-top: -20px;}
 .feedback-container{display: flex; gap: 20px;}
 .feedback-details{border: solid #F2EDED;background-color:white ; border-radius: 14px; padding: 30px; padding-bottom: 10px;}
 .raters-info{display: flex; gap: 18px;}
